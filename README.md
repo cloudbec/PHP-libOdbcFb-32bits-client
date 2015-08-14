@@ -33,6 +33,10 @@ and the following package
 - php5-odbc 
 - libmyodbc 
 
+# xdebug
+
+xdebug is activated in this image
+
 
 The 2013 libOdbcFb 32bits client Version 2.0.2 is installed more information : http://www.firebirdsql.org/en/odbc-driver/
 
@@ -60,6 +64,7 @@ The first time that you run your container, a random password will be generated
 for user `root`. To get the password, check the logs of the container by running:
 
         docker logs <CONTAINER_ID>
+
 
 You will see an output like the following:
 
